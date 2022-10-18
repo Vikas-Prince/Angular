@@ -1,0 +1,38 @@
+<h3 style="text-align:center">{{filterName}}</h3>
+<div class="radio">
+    <div>
+        <label>
+            <input type="radio"
+            [(ngModel)]= "cuisineType"
+            (change)= "onCuisineSelect" value="1">North Indian
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="radio"
+            [(ngModel)]= "cuisineType"
+            (change)= "onCuisineSelect"  value="2">South Indian
+    </label>
+    </div>
+    <div>
+        <label>
+            <input type="radio"
+            [(ngModel)]= "cuisineType"
+            (change)= "onCuisineSelect"  value="3">Chinese
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="radio"
+            [(ngModel)]= "cuisineType" 
+            (change)= "onCuisineSelect" value="4">Fast Food
+        </label>
+    </div>
+    <div> 
+        <label>
+            <input type="radio"
+            [(ngModel)]= "cuisineType"
+            (change)= "onCuisineSelect"  value="5">Street Food
+         </label>
+    </div>
+</div>
